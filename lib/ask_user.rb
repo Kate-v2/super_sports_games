@@ -40,7 +40,7 @@ class UserGames
   end
 
   def prompt_user_ages
-    print "What were the player ages? (space separated)"
+    print "What were the player ages? (", " separated) "
     input = $stdin.gets.chomp
     ages = string_to_ints(input)
     return ages
